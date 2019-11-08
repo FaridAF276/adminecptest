@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { ChartDataSets, ChartOptions } from 'chart.js';
+import { Color, Label } from 'ng2-charts';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
